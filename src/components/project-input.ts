@@ -1,3 +1,10 @@
+/// <reference path ='../decorators/autobind.ts' />
+/// <reference path ='base-component.ts' />
+
+/// <reference path ='../util/validate.ts' />
+
+/// <reference path ='../state/project-state.ts' />
+
 namespace App {
   export type gatherUserInputReturnType = [string, string, number] | void;
 
