@@ -2,7 +2,7 @@ import { Component } from "../components/base-component.js";
 import { DragTarget } from "../models/drag-drop-interfaces.js";
 import { Project } from "../models/project-model.js";
 import { autoBind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state";
+import { projectState } from "../state/project-state.js";
 import { ProjectStatus } from "../models/project-model.js";
 import { ProjectItem } from "./project-item.js";
 

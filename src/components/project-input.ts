@@ -1,8 +1,8 @@
-import { Component } from "../components/base-component.js";
+import { Component } from "./base-component.js";
 
 import { autoBind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state";
-import { Validatable, validate } from "../util/validate";
+import { projectState } from "../state/project-state.js";
+import { Validatable, validate } from "../util/validate.js";
 
 export type gatherUserInputReturnType = [string, string, number] | void;
 
